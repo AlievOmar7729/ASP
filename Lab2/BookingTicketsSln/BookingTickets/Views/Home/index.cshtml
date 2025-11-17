@@ -1,0 +1,39 @@
+@model BookingTickets.Models.ViewModels.EventsListViewModel
+
+
+
+
+<h2 class="mb-4 fw-bold">Available Events</h2>
+
+<div class="row g-4">
+    @foreach (var e in Model.Events)
+{
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+                <h4 class="card-title fw-bold">@e.Title</h4>
+                <p class="card-text text-muted">@e.Description</p>
+
+                <div class="mt-auto">
+                    <h5 class="text-primary fw-bold">@e.Price.ToString("c")</h5>
+                    <a class="btn btn-primary w-100 mt-2">Book ticket</a>
+                    <a class="btn btn-outline-secondary w-100 mt-2">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+</div>
+
+<hr class="my-4" />
+
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+        @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+        {
+        <li class="page-item @(i == Model.PagingInfo.CurrentPage ? "active" : "")">
+            <a class="page-link" href="/Home/Index?page=@i">@i</a>
+        </li>
+        }
+    </ul>
+</nav>

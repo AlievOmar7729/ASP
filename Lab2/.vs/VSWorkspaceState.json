@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookingTicketsSln",
+    "\\BookingTicketsSln\\BookingTickets",
+    "\\BookingTicketsSln\\BookingTickets\\Models",
+    "\\BookingTicketsSln\\BookingTickets\\Models\\ViewModels",
+    "\\BookingTicketsSln\\BookingTickets\\Views",
+    "\\BookingTicketsSln\\BookingTickets\\Views\\Shared",
+    "\\BookingTicketsSln\\BookingTickets\\wwwroot\\lib",
+    "\\BookingTicketsSln\\BookingTickets\\wwwroot\\lib\\bootstrap",
+    "\\BookingTicketsSln\\BookingTickets\\wwwroot\\lib\\bootstrap\\css"
+  ],
+  "SelectedNode": "\\BookingTicketsSln\\BookingTickets\\BookingTickets.csproj",
+  "PreviewInSolutionExplorer": false
+}
