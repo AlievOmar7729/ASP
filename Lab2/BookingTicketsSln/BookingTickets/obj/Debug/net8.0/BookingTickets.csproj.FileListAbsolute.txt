@@ -137,3 +137,4 @@ G:\4Cours\ASP\Lab2\BookingTicketsSln\BookingTickets\obj\Debug\net8.0\BookingTick
 G:\4Cours\ASP\Lab2\BookingTicketsSln\BookingTickets\obj\Debug\net8.0\BookingT.8BDFCA0E.Up2Date
 G:\4Cours\ASP\Lab2\BookingTicketsSln\BookingTickets\bin\Debug\net8.0\libman.json
 G:\4Cours\ASP\Lab2\BookingTicketsSln\BookingTickets\bin\Debug\net8.0\BookingTickets.staticwebassets.runtime.json
+G:\4Cours\ASP\Lab2\BookingTicketsSln\BookingTickets\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

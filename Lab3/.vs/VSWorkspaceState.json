@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookingTicketsSln",
+    "\\BookingTicketsSln\\BookingTickets",
+    "\\BookingTicketsSln\\BookingTickets\\Components",
+    "\\BookingTicketsSln\\BookingTickets\\Views",
+    "\\BookingTicketsSln\\BookingTickets\\Views\\Cart",
+    "\\BookingTicketsSln\\BookingTickets\\Views\\Home",
+    "\\BookingTicketsSln\\BookingTickets\\Views\\Shared",
+    "\\BookingTicketsSln\\BookingTickets\\Views\\Shared\\Components",
+    "\\BookingTicketsSln\\BookingTickets\\Views\\Shared\\Components\\CartSummary"
+  ],
+  "SelectedNode": "\\BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionExtensions.cs",
+  "PreviewInSolutionExplorer": false
+}
