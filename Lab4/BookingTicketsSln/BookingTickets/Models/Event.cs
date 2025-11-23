@@ -8,21 +8,21 @@ namespace BookingTickets.Models
         [Key]
         public long EventID { get; set; }
 
-        [Required(ErrorMessage = "У события должно быть название.")]
-        [StringLength(100, ErrorMessage = "Название не должно быть длиннее 100 символов.")]
+        [Required(ErrorMessage = "Подія повинна мати назву.")]
+        [StringLength(100, ErrorMessage = "Назва не може бути довшою за 100 символів.")]
         public string Title { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Описание тоже нужно, как ни странно.")]
-        [StringLength(1000, ErrorMessage = "Описание слишком длинное.")]
+        [Required(ErrorMessage = "Опис теж потрібен.")]
+        [StringLength(1000, ErrorMessage = "Опис занадто довгий.")]
         public string Description { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Укажи цену.")]
-        [Range(0.01, 999999, ErrorMessage = "Цена должна быть больше нуля.")]
+        [Required(ErrorMessage = "Вкажіть ціну.")]
+        [Range(0.01, 999999, ErrorMessage = "Ціна має бути більшою за нуль.")]
         [Column(TypeName = "decimal(8,2)")]
         public decimal Price { get; set; }
 
-        [Required(ErrorMessage = "Категория обязательна.")]
-        [StringLength(50, ErrorMessage = "Категория слишком длинная.")]
+        [Required(ErrorMessage = "Категорія є обов’язковою.")]
+        [StringLength(50, ErrorMessage = "Категорія занадто довга.")]
         public string Category { get; set; } = string.Empty;
 
         public ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();

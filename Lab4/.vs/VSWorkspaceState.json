@@ -3,14 +3,14 @@
     "",
     "\\BookingTicketsSln",
     "\\BookingTicketsSln\\BookingTickets",
-    "\\BookingTicketsSln\\BookingTickets\\Controllers",
     "\\BookingTicketsSln\\BookingTickets\\Infrastructure",
+    "\\BookingTicketsSln\\BookingTickets\\Models",
     "\\BookingTicketsSln\\BookingTickets\\Views",
     "\\BookingTicketsSln\\BookingTickets\\Views\\Event",
     "\\BookingTicketsSln\\BookingTickets\\Views\\Home",
     "\\BookingTicketsSln\\BookingTickets\\Views\\Shared",
     "\\BookingTicketsSln\\BookingTickets\\Views\\Ticket"
   ],
-  "SelectedNode": "\\BookingTicketsSln\\BookingTickets\\Controllers\\EventController.cs",
+  "SelectedNode": "\\BookingTicketsSln\\BookingTickets\\Views\\Ticket\\Edit.cshtml",
   "PreviewInSolutionExplorer": false
 }

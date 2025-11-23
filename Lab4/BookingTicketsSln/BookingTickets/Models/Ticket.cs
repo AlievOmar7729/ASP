@@ -8,16 +8,16 @@ namespace BookingTickets.Models
         [Key]
         public long TicketID { get; set; }
 
-        [Required(ErrorMessage = "Вкажи место, ну же.")]
-        [StringLength(20, ErrorMessage = "Место не должно быть длиннее 20 символов.")]
+        [Required(ErrorMessage = "Вкажи місце")]
+        [StringLength(20, ErrorMessage = "Місце не може бути довшим за 20 символів.")]
         public string Seat { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Цена обязана быть указана.")]
-        [Range(0.01, 999999, ErrorMessage = "Цена должна быть больше нуля.")]
+        [Required(ErrorMessage = "Вкажи ціну.")]
+        [Range(0.01, 999999, ErrorMessage = "Ціна має бути більшою за нуль.")]
         [Column(TypeName = "decimal(8,2)")]
         public decimal Cost { get; set; }
 
-        [Required(ErrorMessage = "Выбери событие.")]
+        [Required(ErrorMessage = "Обери подію.")]
         public long EventID { get; set; }
 
         public Event Event { get; set; }
