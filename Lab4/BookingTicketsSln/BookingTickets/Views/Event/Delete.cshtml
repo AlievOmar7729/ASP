@@ -1,0 +1,16 @@
+@model BookingTickets.Models.Event
+
+<h2>Delete Event</h2>
+
+<p>Are you sure you want to delete this event?</p>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p>@Model.Description</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="EventID" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

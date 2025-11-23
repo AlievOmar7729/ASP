@@ -1,0 +1,12 @@
+@model BookingTickets.Models.Ticket
+
+<h2>Ticket Details</h2>
+
+<p><strong>Seat:</strong> @Model.Seat</p>
+<p><strong>Cost:</strong> @Model.Cost</p>
+<p><strong>Event:</strong> @Model.Event.Title</p>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.TicketID" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</p>
