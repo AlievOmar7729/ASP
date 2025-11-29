@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "G:\\4Cours\\ASP\\Lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionCart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionCart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,19 +55,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SessionExtensions.cs",
-              "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionExtensions.cs",
-              "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionExtensions.cs",
-              "ToolTip": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionExtensions.cs",
-              "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:47:59.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "SessionCart.cs",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionCart.cs",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Infrastructure\\SessionCart.cs",
@@ -84,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Default.cshtml",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
@@ -92,12 +75,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:45:46.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:45:46.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CartSummaryViewComponent.cs",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Components\\CartSummaryViewComponent.cs",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Components\\CartSummaryViewComponent.cs",
@@ -105,12 +87,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Components\\CartSummaryViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:45:08.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:45:08.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\_Layout.cshtml",
@@ -118,12 +99,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:42:41.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:42:41.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "index.cshtml",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Views\\Home\\index.cshtml",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Views\\Home\\index.cshtml",
@@ -131,12 +111,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Home\\index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:42:32.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:42:32.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Event.cs",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Models\\Event.cs",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Models\\Event.cs",
@@ -144,12 +123,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Models\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:40:37.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:40:37.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "_EventSummary.cshtml",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Views\\Shared\\_EventSummary.cshtml",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\_EventSummary.cshtml",
@@ -157,12 +135,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\_EventSummary.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:39:42.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:39:42.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Views\\Cart\\Index.cshtml",
@@ -170,12 +147,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:39:34.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:39:34.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "CartController.cs",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
@@ -183,12 +159,11 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:39:22.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:39:22.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\4Cours\\ASP\\Lab3\\BookingTicketsSln\\BookingTickets\\Program.cs",
               "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Program.cs",
@@ -196,8 +171,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:38:31.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:38:31.94Z"
             }
           ]
         }

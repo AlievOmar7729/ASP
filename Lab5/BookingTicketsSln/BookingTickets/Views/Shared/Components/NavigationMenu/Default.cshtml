@@ -1,0 +1,23 @@
+@model BookingTickets.Components.NavigationMenuViewModel
+
+<ul class="list-group">
+    @foreach (var category in Model.Categories)
+    {
+        var active = category == Model.SelectedCategory ? "active" : "";
+
+    <li class="list-group-item @active">
+        <a href="/Home/Index?category=@category" class="text-decoration-none">
+            @category
+        </a>
+    </li>
+    }
+</ul>
+
+<style>
+    .list-group-item.active {
+        background-color: orange;
+        color: white;
+        border-color: orange;
+        font-weight: bold;
+    }
+</style>

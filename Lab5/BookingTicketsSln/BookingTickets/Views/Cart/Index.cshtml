@@ -1,0 +1,23 @@
+@model Cart
+
+<h2>Your Cart</h2>
+
+@if (!Model.Items.Any())
+{
+<p>No tickets selected.</p>
+}
+else
+{
+<table class="table">
+    @foreach (var i in Model.Items)
+        {
+    <tr>
+        <td>@i.Event.Title</td>
+        <td>@i.Quantity</td>
+        <td>
+            <a class="btn btn-danger" href="/Cart/Remove?eventId=@i.Event.EventID">Remove</a>
+        </td>
+    </tr>
+        }
+</table>
+}

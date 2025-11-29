@@ -1,0 +1,31 @@
+@model BookingTickets.Models.ViewModels.LoginViewModel
+@{
+    Layout = "_AuthLayout";
+    ViewBag.Title = "Login";
+}
+
+<div class="auth-container">
+    <h2>Sign In</h2>
+
+    <form style="background:red" asp-action="Login" method="post" class="auth-form">
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <div>
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+
+        <input type="hidden" asp-for="ReturnUrl" />
+
+        <button type="submit">Login</button>
+    </form>
+
+    <p class="auth-link">
+        Don’t have an account? <a asp-controller="Account" asp-action="Register">Register</a>
+    </p>
+</div>

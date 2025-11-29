@@ -55,8 +55,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Event\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T00:50:13.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:50:13.832Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Event\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T00:49:50.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:49:50.523Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Models\\Ticket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T00:47:49.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:47:49.439Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Models\\Event.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T00:47:06.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T00:47:06.966Z"
             }
           ]
         }

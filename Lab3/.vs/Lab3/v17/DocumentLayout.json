@@ -75,8 +75,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:45:46.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:45:46.1Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Components\\CartSummaryViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:45:08.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:45:08.418Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:42:41.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:42:41.535Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Home\\index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:42:32.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:42:32.433Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Models\\Event.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:40:37.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:40:37.129Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Shared\\_EventSummary.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:39:42.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:39:42.73Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T02:39:34.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:39:34.074Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:39:22.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:39:22.059Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:38:31.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:38:31.94Z"
             }
           ]
         }
