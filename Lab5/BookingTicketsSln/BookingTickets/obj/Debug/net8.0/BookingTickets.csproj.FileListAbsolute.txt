@@ -557,3 +557,4 @@ G:\4Cours\ASP\Lab5\bookingticketsSln\bookingtickets\obj\Debug\net8.0\refint\Book
 G:\4Cours\ASP\Lab5\bookingticketsSln\bookingtickets\obj\Debug\net8.0\BookingTickets.pdb
 G:\4Cours\ASP\Lab5\bookingticketsSln\bookingtickets\obj\Debug\net8.0\BookingTickets.genruntimeconfig.cache
 G:\4Cours\ASP\Lab5\bookingticketsSln\bookingtickets\obj\Debug\net8.0\ref\BookingTickets.dll
+G:\4Cours\ASP\Lab5\BookingTicketsSln\BookingTickets\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

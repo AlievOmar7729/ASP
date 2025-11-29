@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 
 
 
-[Authorize]
+[Authorize(Roles = "Admin")]
 public class EventController : Controller
 {
     private IBookingRepository repo;

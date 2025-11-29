@@ -15,5 +15,8 @@ namespace BookingTickets.Models.ViewModels
         [Required]
         [Compare("Password")]
         public string ConfirmPassword { get; set; }
+
+        public string Role { get; set; }
+
     }
 }

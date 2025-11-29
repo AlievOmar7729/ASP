@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\4Cours\\ASP\\Lab5\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingTicketsSln\\BookingTickets\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\EventController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingTicketsSln\\BookingTickets\\Controllers\\EventController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\TicketController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingTicketsSln\\BookingTickets\\Controllers\\TicketController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Controllers\\AccountController.cs",
+              "ToolTip": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T04:25:40.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
+              "ToolTip": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T04:24:06.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Controllers\\EventController.cs",
+              "ToolTip": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\EventController.cs",
+              "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T04:24:03.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "BookingTicketsSln\\BookingTickets\\Controllers\\TicketController.cs",
+              "ToolTip": "G:\\4Cours\\ASP\\Lab5\\BookingTicketsSln\\BookingTickets\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "BookingTicketsSln\\BookingTickets\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T04:24:02.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

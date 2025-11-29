@@ -6,10 +6,11 @@
     "\\BookingTicketsSln\\BookingTickets\\Controllers",
     "\\BookingTicketsSln\\BookingTickets\\Infrastructure",
     "\\BookingTicketsSln\\BookingTickets\\Models",
+    "\\BookingTicketsSln\\BookingTickets\\Models\\ViewModels",
     "\\BookingTicketsSln\\BookingTickets\\Views",
     "\\BookingTicketsSln\\BookingTickets\\Views\\Account",
     "\\BookingTicketsSln\\BookingTickets\\Views\\Shared"
   ],
-  "SelectedNode": "\\BookingTicketsSln\\BookingTickets\\Views\\Account\\Register.cshtml",
+  "SelectedNode": "\\BookingTicketsSln\\BookingTickets\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
 }

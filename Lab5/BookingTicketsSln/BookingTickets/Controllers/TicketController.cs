@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 
 
-[Authorize]
+[Authorize(Roles = "Admin")]
 public class TicketController : Controller
 {
 	private IBookingRepository repo;
@@ -14,7 +14,12 @@ public class TicketController : Controller
 		repo = repository;
 	}
 
-	public IActionResult Index()
+    public IActionResult AccessDenied()
+    {
+        return RedirectToAction("Login", "Account");
+    }
+
+    public IActionResult Index()
 	{
 		return View(repo.Tickets.Include(t => t.Event));
 	}

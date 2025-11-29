@@ -9,12 +9,16 @@ namespace BookingTickets.Controllers
     {
         private readonly UserManager<IdentityUser> userManager;
         private readonly SignInManager<IdentityUser> signInManager;
+        private readonly RoleManager<IdentityRole> roleManager;
 
-        public AccountController(UserManager<IdentityUser> userMgr,
-                                 SignInManager<IdentityUser> signInMgr)
+        public AccountController(
+            UserManager<IdentityUser> userMgr,
+            SignInManager<IdentityUser> signInMgr,
+            RoleManager<IdentityRole> roleMgr)
         {
             userManager = userMgr;
             signInManager = signInMgr;
+            roleManager = roleMgr;
         }
 
         public IActionResult Register()
@@ -22,17 +26,34 @@ namespace BookingTickets.Controllers
             return View(new RegisterViewModel());
         }
 
+        public IActionResult AccessDenied()
+        {
+            return RedirectToAction("Login", "Account");
+        }
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { Email = model.Email, UserName = model.Email };
+                var user = new IdentityUser
+                {
+                    Email = model.Email,
+                    UserName = model.Email
+                };
+
                 var result = await userManager.CreateAsync(user, model.Password);
 
                 if (result.Succeeded)
                 {
+                    if (!await roleManager.RoleExistsAsync(model.Role))
+                    {
+                        await roleManager.CreateAsync(new IdentityRole(model.Role));
+                    }
+                    await userManager.AddToRoleAsync(user, model.Role);
+
                     await signInManager.SignInAsync(user, false);
                     return RedirectToAction("Index", "Home");
                 }

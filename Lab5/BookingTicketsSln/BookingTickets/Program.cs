@@ -12,25 +12,36 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
 builder.Services.AddSession();
 
-// Контекст под івенти/білети
+
 builder.Services.AddDbContext<BookingDbContext>(opts =>
 {
     opts.UseSqlServer(builder.Configuration["ConnectionStrings:BookingTicketsConnection"]);
 });
 
-// Контекст під Identity
+
 builder.Services.AddDbContext<AppIdentityDbContext>(opts =>
 {
     opts.UseSqlServer(builder.Configuration["ConnectionStrings:BookingTicketsConnection"]);
 });
 
-// Репозиторій для білетів
+
 builder.Services.AddScoped<IBookingRepository, EFBookingRepository>();
 
-// Identity з нормальним контекстом
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-    .AddEntityFrameworkStores<AppIdentityDbContext>()
-    .AddDefaultTokenProviders();
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+{
+    options.Password.RequireDigit = true;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 6;
+})
+.AddEntityFrameworkStores<AppIdentityDbContext>()
+.AddDefaultTokenProviders();
+
+builder.Services.AddScoped<RoleManager<IdentityRole>>();
+builder.Services.AddScoped<UserManager<IdentityUser>>();
+builder.Services.AddScoped<SignInManager<IdentityUser>>();
 
 var app = builder.Build();
 
@@ -42,14 +53,24 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// АВТОМАТИЧНЕ СТВОРЕННЯ ТАБЛИЦЬ ДЛЯ Identity
+
 using (var scope = app.Services.CreateScope())
 {
     var identityContext = scope.ServiceProvider.GetRequiredService<AppIdentityDbContext>();
     identityContext.Database.Migrate();
+
+
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+    string[] roles = { "Admin", "User" };
+
+    foreach (var role in roles)
+    {
+        if (!await roleManager.RoleExistsAsync(role))
+            await roleManager.CreateAsync(new IdentityRole(role));
+    }
 }
 
-// Створити тестові дані для Events
 SeedData.EnsurePopulated(app);
 
 app.MapControllerRoute(

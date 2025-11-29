@@ -26,6 +26,14 @@
             <span asp-validation-for="ConfirmPassword"></span>
         </div>
 
+        <div class="form-group">
+            <label for="role">Тип користувача</label>
+            <select name="Role" class="form-control">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </div>
+
         <button type="submit">Register</button>
     </form>
 

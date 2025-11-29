@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using BookingTickets.Models;
 using BookingTickets.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 
 public class CartController : Controller
 {
@@ -13,6 +14,7 @@ public class CartController : Controller
         cart = cartService;
     }
 
+    [Authorize(Roles = "User")]
     public RedirectToActionResult AddToCart(int eventId)
     {
         var e = repository.Events.FirstOrDefault(e => e.EventID == eventId);
